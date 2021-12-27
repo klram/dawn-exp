@@ -8,36 +8,29 @@
 {% schema %}
   {
     "name": "icons with text above",
-    "settings": [
-					{
-						"type":"text",
-						"label":"your headline for the section",
-						"id":"heading"
-					},
-					{
-						"type":"richtext",
-						"label":"your description",
-						"id":"description"
-					}
-				],
-	"blocks" : [
-				{
-					"type":"image",
-					"name":"Image",
-					"settings": [
-								{
-									"type":"image_picker",
-									"label":"your image",
-									"id":"image"
-								}
-								]
-				}
-				],
-	"presets" : [
-				{
-					"category":"image",
-					"name":"icons with text"
-				}
-				]
+    "settings": [{
+        "type": "text",
+        "label": "your headline for the section",
+        "id": "heading"
+      },
+      {
+        "type": "richtext",
+        "label": "your description",
+        "id": "description"
+      }
+    ],
+    "blocks": [{
+      "type": "image",
+      "name": "Image",
+      "settings": [{
+        "type": "image_picker",
+        "label": "your image",
+        "id": "image"
+      }]
+    }],
+    "presets": [{
+      "category": "image",
+      "name": "icons with text"
+    }]
   }
 {% endschema %}
