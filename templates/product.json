@@ -52,7 +52,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Details",
-            "content": "<p>Propagate in water:<br\/>Lighting conditions: <br\/>{{ product.metafields.my_fields.lighting_conditions.value }}<\/p>",
+            "content": "<p>Propagate in water:{{product.metafields.my_fields.lighting_conditions.value}}<br\/>Lighting conditions: <br\/>{{ product.metafields.my_fields.lighting_conditions.value }}<\/p>",
             "page": "",
             "icon": "check_mark"
           }
