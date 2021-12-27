@@ -73,6 +73,31 @@
       },
       "icons-with-text": {
         "type": "icons-with-text",
+        "blocks": {
+          "dc79a70a-0f12-4948-8198-f296428e513b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1birds-nest.jpg"
+            }
+          },
+          "6293e7f7-8b4a-40ee-9782-f127fc61fa18": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2chinese-evergreen-pink.png"
+            }
+          },
+          "f554dbb1-020f-4d09-900c-87581a7bc66a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6ficus-nana.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "dc79a70a-0f12-4948-8198-f296428e513b",
+          "6293e7f7-8b4a-40ee-9782-f127fc61fa18",
+          "f554dbb1-020f-4d09-900c-87581a7bc66a"
+        ],
         "settings": {
           "heading": "TEST",
           "description": "<p>lorem ipsum lorem ipsum<\/p>"
