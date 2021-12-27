@@ -1,22 +1,22 @@
 {
   "sections": {
-    "second": {
-      "type": "main-test-product",
-      "settings": {
-        "tax_notice": "taxes included",
-        "show_reviews": true
-      }
-    },
     "main": {
       "type": "main-test-product",
       "settings": {
         "tax_notice": "tax not included",
         "show_reviews": false
       }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "tax_notice": "taxes included",
+        "show_reviews": true
+      }
     }
   },
   "order": [
-    "second",
-    "main"
+    "main",
+    "second"
   ]
 }
