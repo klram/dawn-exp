@@ -2,7 +2,7 @@
 <p>{{section.settings.description}}</p>
 
 {% for block in section.blocks %}
-	<img src="{{block.settings.image | img_url:'master', 'large'}}"/>
+	<img src="{{block.settings.image | img_url:'master', 'small'}}"/>
 {% endfor %}
 
 {% schema %}
