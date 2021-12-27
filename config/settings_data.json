@@ -102,6 +102,13 @@
           "heading": "TEST",
           "description": "<p>lorem ipsum lorem ipsum<\/p>"
         }
+      },
+      "main-test-product": {
+        "type": "main-test-product",
+        "settings": {
+          "tax-notice": "tax included",
+          "show-reviews": true
+        }
       }
     },
     "content_for_index": [
