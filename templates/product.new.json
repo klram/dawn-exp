@@ -1,13 +1,17 @@
 {
   "sections": {
-    "main": {
-      "type": "main-test-product",
-      "settings": {
-      }
-    },
     "second": {
       "type": "main-test-product",
       "settings": {
+        "tax_notice": "tax included",
+        "show_reviews": true
+      }
+    },
+    "main": {
+      "type": "main-test-product",
+      "settings": {
+        "tax_notice": "tax not included",
+        "show_reviews": false
       }
     }
   },
