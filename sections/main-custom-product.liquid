@@ -378,6 +378,12 @@
         
         test-test-test
         
+        <div>
+          <label for="custom-name" >Your Name</label>
+          
+          <input type="text" id="custom-name" form="{{product_form_id}}" name="properties[Your Name]" />
+        </div>
+        
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
