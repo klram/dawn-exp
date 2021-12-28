@@ -139,6 +139,13 @@
      <h1>product.content</h1>
       {{ product.content }}
     
+    <h1>product.variants</h1>
+    <ul>
+    	{% for variant in product.variants %}
+      		<li>{{ variant.title }}</li>
+      	{% endfor %}
+    </ul>
+    
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
